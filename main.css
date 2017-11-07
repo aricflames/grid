@@ -1,6 +1,7 @@
 body{
   background-color: #ffffff;
 }
+
 div.container {
   display:grid;
   grid-template-columns: 2fr 1fr;
@@ -12,14 +13,17 @@ div.container {
   margin-right: auto;
   max-width: 800px;
 }
+
 header {
   grid-area: header;
   background-color: #83f204;
 }
+
 main{
   grid-area: main;
   background-color: #ff00ff;
 }
+
 aside{
   grid-area: aside;
   background-color: #03f1f1;
@@ -28,6 +32,7 @@ footer{
   grid-area: footer;
   background-color: #ff0000;
 }
+
 @media (max-width: 600px) {
   div.container {
     grid-auto-columns: 1fr;
